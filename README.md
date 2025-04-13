@@ -2,7 +2,6 @@
 
 This guide documents how I deployed my **MarketPeak_Ecommerce** project to an AWS EC2 instance using Git, Apache, and SSH for secure and seamless updates. It also includes setting up continuous deployment using GitHub branches and pull requests.
 
----
 
 ## 🛠️ Prerequisites
 
@@ -11,13 +10,11 @@ This guide documents how I deployed my **MarketPeak_Ecommerce** project to an AW
 - SSH key pair for secure Git operations
 - Git and Apache installed on EC2
 
----
 
 ## 📦 Project Setup
 
 ### 1. Create Local Project Directory
 
-```bash
 mkdir MarketPeak_Ecommerce
 cd MarketPeak_Ecommerce
 2. Initialize Git and Push to GitHub
@@ -81,6 +78,7 @@ You should now see your deployed website 🎉
 11. Create and Switch to a Development Branch
 git checkout -b development
 12. Make Changes (e.g., edit index.html)
+
 # Modify the index.html file
 git add index.html
 git commit -m "Update homepage text in development branch"
@@ -140,3 +138,16 @@ GitHub: @silasevan
 
 🧾 License
 MIT License
+
+
+
+
+
+
+
+
+
+
+
+
+
